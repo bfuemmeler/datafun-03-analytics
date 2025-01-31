@@ -21,3 +21,4 @@ updated pip
 requirements.txt built
 Tested file
 >>>>>>> 7999b95a9f95cacf37c98057f48fd57abe9760fd
+added logger
