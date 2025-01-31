@@ -1,0 +1,1115 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "bh6t-9679",
+      "name" : "Missouri State Fair Results",
+      "assetType" : "dataset",
+      "averageRating" : 0,
+      "category" : "Agriculture",
+      "createdAt" : 1501537172,
+      "description" : "Missouri State Fair Results",
+      "displayType" : "table",
+      "downloadCount" : 3843,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1562696347,
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 31897097,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1562696360,
+      "publicationGroup" : 14367267,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1738285262,
+      "rowsUpdatedBy" : "xfqs-bcyn",
+      "tableId" : 16346078,
+      "totalTimesRated" : 0,
+      "viewCount" : 68294,
+      "viewLastModified" : 1562696360,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1555308963,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 874095,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1555308963,
+        "targetAudience" : "public",
+        "workflowId" : 2177,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "87h5-w7hj",
+          "displayName" : "Willmichel81"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 416806055,
+        "name" : "Exhibitor Name",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "exhibitor_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213046,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "Zoey Hurt",
+          "null" : "0",
+          "top" : [ {
+            "item" : "James Deutsch",
+            "count" : "146"
+          }, {
+            "item" : "Donna Kitterman",
+            "count" : "123"
+          }, {
+            "item" : "Wanda Rasa",
+            "count" : "74"
+          }, {
+            "item" : "Brodey Bartlett",
+            "count" : "72"
+          }, {
+            "item" : "Linda Hall",
+            "count" : "61"
+          }, {
+            "item" : "Ed Holland",
+            "count" : "58"
+          }, {
+            "item" : "Michael Cunningham",
+            "count" : "50"
+          }, {
+            "item" : "James Miller",
+            "count" : "50"
+          }, {
+            "item" : "Betsy Gerke",
+            "count" : "33"
+          }, {
+            "item" : "Toni Walton",
+            "count" : "32"
+          }, {
+            "item" : "Dorothy Gillig",
+            "count" : "28"
+          }, {
+            "item" : "Phillip Gerke",
+            "count" : "28"
+          }, {
+            "item" : "Sharon Bruner",
+            "count" : "27"
+          }, {
+            "item" : "Abby Weiss",
+            "count" : "27"
+          }, {
+            "item" : "Jerry Pegelow",
+            "count" : "27"
+          }, {
+            "item" : "Ivy Elwell",
+            "count" : "26"
+          }, {
+            "item" : "Lorelai Kuecker",
+            "count" : "25"
+          }, {
+            "item" : "Barbara Thomas",
+            "count" : "24"
+          }, {
+            "item" : "Mindy Reid",
+            "count" : "22"
+          }, {
+            "item" : "Olivia Graves",
+            "count" : "21"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "Abby Dittmer",
+          "count" : "5662",
+          "cardinality" : "1598"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806056,
+        "name" : " Division",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "division",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213047,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "94A Parade",
+          "null" : "0",
+          "top" : [ {
+            "item" : "81I Rose Show",
+            "count" : "181"
+          }, {
+            "item" : "81J Missouri Master Gardener Show",
+            "count" : "156"
+          }, {
+            "item" : "07B Horsemanship - Fri. July 28 2023",
+            "count" : "140"
+          }, {
+            "item" : "81H Hostas & Elephant Ears Show",
+            "count" : "138"
+          }, {
+            "item" : "40F Hereford - Open",
+            "count" : "135"
+          }, {
+            "item" : "62A Horticulture",
+            "count" : "124"
+          }, {
+            "item" : "40A Angus - Open",
+            "count" : "106"
+          }, {
+            "item" : "81B Photography Show",
+            "count" : "104"
+          }, {
+            "item" : "81E African Violet Show & Sale",
+            "count" : "101"
+          }, {
+            "item" : "72N Craft Bazaar",
+            "count" : "101"
+          }, {
+            "item" : "07D Horsemanship - Sun. July 30 2023",
+            "count" : "94"
+          }, {
+            "item" : "81G Youth Show",
+            "count" : "91"
+          }, {
+            "item" : "50S Spot Boars & Gilts - Open",
+            "count" : "87"
+          }, {
+            "item" : "46K Bantam Feather Legged - Open",
+            "count" : "87"
+          }, {
+            "item" : "49I Southdown - Open",
+            "count" : "86"
+          }, {
+            "item" : "49L Katahdin - Open",
+            "count" : "80"
+          }, {
+            "item" : "40D Charolais - Open",
+            "count" : "78"
+          }, {
+            "item" : "49H Shropshire - Open",
+            "count" : "77"
+          }, {
+            "item" : "40N Shorthorn - Open",
+            "count" : "77"
+          }, {
+            "item" : "41D Holstein - Open",
+            "count" : "73"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "07A Horsemanship - Thurs. July 27 2023",
+          "count" : "5662",
+          "cardinality" : "147"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806057,
+        "name" : " Class",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "class",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213048,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "76",
+          "null" : "0",
+          "top" : [ {
+            "item" : "01",
+            "count" : "133"
+          }, {
+            "item" : "04",
+            "count" : "129"
+          }, {
+            "item" : "06",
+            "count" : "108"
+          }, {
+            "item" : "03",
+            "count" : "96"
+          }, {
+            "item" : "05",
+            "count" : "94"
+          }, {
+            "item" : "17",
+            "count" : "86"
+          }, {
+            "item" : "02",
+            "count" : "85"
+          }, {
+            "item" : "07",
+            "count" : "81"
+          }, {
+            "item" : "11",
+            "count" : "79"
+          }, {
+            "item" : "09",
+            "count" : "74"
+          }, {
+            "item" : "361",
+            "count" : "70"
+          }, {
+            "item" : "08",
+            "count" : "69"
+          }, {
+            "item" : "10",
+            "count" : "63"
+          }, {
+            "item" : "20",
+            "count" : "61"
+          }, {
+            "item" : "241",
+            "count" : "58"
+          }, {
+            "item" : "19",
+            "count" : "49"
+          }, {
+            "item" : "16",
+            "count" : "48"
+          }, {
+            "item" : "29",
+            "count" : "47"
+          }, {
+            "item" : "12",
+            "count" : "46"
+          }, {
+            "item" : "28",
+            "count" : "42"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "001",
+          "count" : "5662",
+          "cardinality" : "899"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806058,
+        "name" : "Class Description",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "class_description",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 67603361,
+        "width" : 147,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "Youth Trail Class 16 & under",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Spot Gilts (12/1 through 3/31)",
+            "count" : "70"
+          }, {
+            "item" : "Berkshire Gilts (12/1 through 3/31)",
+            "count" : "49"
+          }, {
+            "item" : "Best in Class",
+            "count" : "38"
+          }, {
+            "item" : "Yorkshire Gilts (12/1 through 3/31)",
+            "count" : "35"
+          }, {
+            "item" : "Open Carcass Lamb",
+            "count" : "34"
+          }, {
+            "item" : "Fully Open Miniature Rose 1 bloom per stem stamens�",
+            "count" : "32"
+          }, {
+            "item" : "Senior heifer calves calved Sept. 1 2022 to Dec. 31 2022",
+            "count" : "31"
+          }, {
+            "item" : "Hosta Specimen - Margined (all colors) - Small less than 3 inches across",
+            "count" : "30"
+          }, {
+            "item" : "Hampshire Gilts (12/1 through 3/31)",
+            "count" : "30"
+          }, {
+            "item" : "Crossbred  Light Gilts (12/1 through 3/31)",
+            "count" : "30"
+          }, {
+            "item" : "One to a stem Hybrid Tea or Grandiflora",
+            "count" : "29"
+          }, {
+            "item" : "Lean-Retail Division",
+            "count" : "28"
+          }, {
+            "item" : "Quality Hotel-Restaurant Division",
+            "count" : "26"
+          }, {
+            "item" : "Chester White Gilts (12/1 through 3/31)",
+            "count" : "25"
+          }, {
+            "item" : "Senior Heifer Calf calved 8/1/2022- 10/31/2022",
+            "count" : "25"
+          }, {
+            "item" : "Poland Gilts (12/1 through 3/31)",
+            "count" : "25"
+          }, {
+            "item" : "Single Bloom",
+            "count" : "23"
+          }, {
+            "item" : "Specimen:  Blossom - dried w/silica gel borax sand�",
+            "count" : "23"
+          }, {
+            "item" : "Barrows On-Foot  and Carcass",
+            "count" : "21"
+          }, {
+            "item" : "Fall Heifer Calf ",
+            "count" : "21"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "1/2 Blood combing:  60-62",
+          "count" : "5662",
+          "cardinality" : "1661"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806059,
+        "name" : " Club",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "club",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213049,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : "559",
+          "largest" : "Wright County MU Extension",
+          "null" : "5103",
+          "top" : [ {
+            "item" : "Cass County MU Extension",
+            "count" : "46"
+          }, {
+            "item" : "Saline County MU Extension",
+            "count" : "42"
+          }, {
+            "item" : "Callaway County MU Extension",
+            "count" : "35"
+          }, {
+            "item" : "Johnson County MU Extension",
+            "count" : "25"
+          }, {
+            "item" : "Lafayette County MU Extension",
+            "count" : "17"
+          }, {
+            "item" : "Jackson County MU Extension",
+            "count" : "16"
+          }, {
+            "item" : "Buchanan County MU Extension",
+            "count" : "13"
+          }, {
+            "item" : "Audrain County MU Extension",
+            "count" : "11"
+          }, {
+            "item" : "Ray County MU Extension",
+            "count" : "11"
+          }, {
+            "item" : "La Monte FFA",
+            "count" : "9"
+          }, {
+            "item" : "Linn County MU Extension",
+            "count" : "9"
+          }, {
+            "item" : "Marshall FFA",
+            "count" : "9"
+          }, {
+            "item" : "Phelps County MU Extension",
+            "count" : "9"
+          }, {
+            "item" : "Owensville FFA",
+            "count" : "8"
+          }, {
+            "item" : "Camden County MU Extension",
+            "count" : "8"
+          }, {
+            "item" : "Macon Co. R-IV FFA",
+            "count" : "8"
+          }, {
+            "item" : "Chilhowee FFA",
+            "count" : "7"
+          }, {
+            "item" : "Rich Hill FFA",
+            "count" : "7"
+          }, {
+            "item" : "Paris FFA",
+            "count" : "7"
+          }, {
+            "item" : "Eldon FFA",
+            "count" : "7"
+          } ],
+          "not_null" : "6812",
+          "smallest" : "Adair County MU Extension",
+          "count" : "5662",
+          "cardinality" : "115"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806060,
+        "name" : " County",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "county",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213052,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : "4054",
+          "largest" : "Wright County",
+          "null" : "1608",
+          "top" : [ {
+            "item" : "Saline County",
+            "count" : "257"
+          }, {
+            "item" : "Pettis County",
+            "count" : "181"
+          }, {
+            "item" : "Randolph County",
+            "count" : "141"
+          }, {
+            "item" : "Boone County",
+            "count" : "119"
+          }, {
+            "item" : "Cass County",
+            "count" : "109"
+          }, {
+            "item" : "Greene County",
+            "count" : "102"
+          }, {
+            "item" : "Bates County",
+            "count" : "98"
+          }, {
+            "item" : "Webster County",
+            "count" : "94"
+          }, {
+            "item" : "Johnson County",
+            "count" : "93"
+          }, {
+            "item" : "Audrain County",
+            "count" : "90"
+          }, {
+            "item" : "Macon County",
+            "count" : "88"
+          }, {
+            "item" : "Benton County",
+            "count" : "87"
+          }, {
+            "item" : "Jackson County",
+            "count" : "82"
+          }, {
+            "item" : "Callaway County",
+            "count" : "82"
+          }, {
+            "item" : "Caldwell County",
+            "count" : "82"
+          }, {
+            "item" : "Ray County",
+            "count" : "72"
+          }, {
+            "item" : "Newton County",
+            "count" : "68"
+          }, {
+            "item" : "Lafayette County",
+            "count" : "67"
+          }, {
+            "item" : "Linn County",
+            "count" : "64"
+          }, {
+            "item" : "Monroe County",
+            "count" : "61"
+          } ],
+          "not_null" : "16244",
+          "smallest" : "adair County",
+          "count" : "5662",
+          "cardinality" : "180"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806061,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "city",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213050,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : "5656",
+          "largest" : "Wright City",
+          "null" : "6",
+          "top" : [ {
+            "item" : "Marshall",
+            "count" : "296"
+          }, {
+            "item" : "Sedalia",
+            "count" : "248"
+          }, {
+            "item" : "Kansas City",
+            "count" : "183"
+          }, {
+            "item" : "Centralia",
+            "count" : "108"
+          }, {
+            "item" : "Butler",
+            "count" : "93"
+          }, {
+            "item" : "La Monte",
+            "count" : "89"
+          }, {
+            "item" : "Cole Camp",
+            "count" : "69"
+          }, {
+            "item" : "Cairo",
+            "count" : "67"
+          }, {
+            "item" : "Ravenwood",
+            "count" : "63"
+          }, {
+            "item" : "Fulton",
+            "count" : "62"
+          }, {
+            "item" : "Bucyrus",
+            "count" : "59"
+          }, {
+            "item" : "Pleasant Hill",
+            "count" : "58"
+          }, {
+            "item" : "Moberly",
+            "count" : "58"
+          }, {
+            "item" : "Windsor",
+            "count" : "57"
+          }, {
+            "item" : "Odessa",
+            "count" : "55"
+          }, {
+            "item" : "Chillicothe",
+            "count" : "52"
+          }, {
+            "item" : "Columbia",
+            "count" : "50"
+          }, {
+            "item" : "Buffalo",
+            "count" : "50"
+          }, {
+            "item" : "California",
+            "count" : "46"
+          }, {
+            "item" : "Paris",
+            "count" : "46"
+          } ],
+          "not_null" : "17171",
+          "smallest" : "Adrian",
+          "count" : "5662",
+          "cardinality" : "486"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806062,
+        "name" : " State",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "state",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213051,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : "5656",
+          "largest" : "WI",
+          "null" : "6",
+          "top" : [ {
+            "item" : "MO",
+            "count" : "5283"
+          }, {
+            "item" : "KS",
+            "count" : "120"
+          }, {
+            "item" : "Mo",
+            "count" : "81"
+          }, {
+            "item" : "NE",
+            "count" : "26"
+          }, {
+            "item" : "IL",
+            "count" : "26"
+          }, {
+            "item" : "TX",
+            "count" : "25"
+          }, {
+            "item" : "AR",
+            "count" : "23"
+          }, {
+            "item" : "WI",
+            "count" : "18"
+          }, {
+            "item" : "ok",
+            "count" : "12"
+          }, {
+            "item" : "mo",
+            "count" : "11"
+          }, {
+            "item" : "IA",
+            "count" : "8"
+          }, {
+            "item" : "OH",
+            "count" : "5"
+          }, {
+            "item" : "MN",
+            "count" : "5"
+          }, {
+            "item" : "OK",
+            "count" : "3"
+          }, {
+            "item" : "MI",
+            "count" : "3"
+          }, {
+            "item" : "AL",
+            "count" : "3"
+          }, {
+            "item" : "KY",
+            "count" : "1"
+          }, {
+            "item" : "North Carolina",
+            "count" : "1"
+          }, {
+            "item" : "Oklahoma",
+            "count" : "1"
+          }, {
+            "item" : "MT",
+            "count" : "1"
+          } ],
+          "not_null" : "17171",
+          "smallest" : "AL",
+          "count" : "5662",
+          "cardinality" : "20"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806063,
+        "name" : " Place",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "place",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213053,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "2217"
+          }, {
+            "item" : "2",
+            "count" : "1453"
+          }, {
+            "item" : "3",
+            "count" : "1049"
+          }, {
+            "item" : "4",
+            "count" : "528"
+          }, {
+            "item" : "5",
+            "count" : "412"
+          }, {
+            "item" : "6",
+            "count" : "2"
+          }, {
+            "item" : "9",
+            "count" : "1"
+          } ],
+          "not_null" : "15466",
+          "smallest" : "1",
+          "count" : "5662",
+          "cardinality" : "7"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806064,
+        "name" : " Ribbon",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "ribbon",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213054,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : "73",
+          "largest" : "Silver",
+          "null" : "5589",
+          "top" : [ {
+            "item" : "GOLD",
+            "count" : "52"
+          }, {
+            "item" : "Gold",
+            "count" : "18"
+          }, {
+            "item" : "Silver",
+            "count" : "3"
+          } ],
+          "not_null" : "6186",
+          "smallest" : "Gold",
+          "count" : "5662",
+          "cardinality" : "3"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806065,
+        "name" : " Division Placing",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "division_placing",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213055,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : "125",
+          "largest" : "Reserve Champion",
+          "null" : "5537",
+          "top" : [ {
+            "item" : "Grand Champion",
+            "count" : "76"
+          }, {
+            "item" : "Reserve Champion",
+            "count" : "49"
+          } ],
+          "not_null" : "76",
+          "smallest" : "Grand Champion",
+          "count" : "5662",
+          "cardinality" : "2"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806066,
+        "name" : " Special Placing",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "special_placing",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213056,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : "212",
+          "largest" : "RESERVE GRAND CHAMPION",
+          "null" : "5450",
+          "top" : [ {
+            "item" : "Div. Champ",
+            "count" : "82"
+          }, {
+            "item" : "Div. Res",
+            "count" : "71"
+          }, {
+            "item" : "GRAND CHAMPION",
+            "count" : "28"
+          }, {
+            "item" : "RESERVE GRAND CHAMPION",
+            "count" : "21"
+          }, {
+            "item" : "RESERVE  GRAND CHAMPION",
+            "count" : "5"
+          }, {
+            "item" : "RERSERVE GRAND CHAMPION",
+            "count" : "2"
+          }, {
+            "item" : "DIVISION GRAND CHAMPION",
+            "count" : "1"
+          }, {
+            "item" : "RESERVE CHAMPION",
+            "count" : "1"
+          }, {
+            "item" : "Best of Show",
+            "count" : "1"
+          } ],
+          "not_null" : "1025",
+          "smallest" : "Best of Show",
+          "count" : "5662",
+          "cardinality" : "9"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806067,
+        "name" : " Publish Date ",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "publish_date",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213057,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "2023-09-01 15:12:42",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2023-08-14 18:28:52",
+            "count" : "589"
+          }, {
+            "item" : "2023-08-14 15:07:23",
+            "count" : "449"
+          }, {
+            "item" : "2023-08-03 17:17:26",
+            "count" : "344"
+          }, {
+            "item" : "2023-08-15 11:24:22",
+            "count" : "284"
+          }, {
+            "item" : "2023-08-18 17:15:31",
+            "count" : "181"
+          }, {
+            "item" : "2023-08-18 17:14:44",
+            "count" : "156"
+          }, {
+            "item" : "2023-08-15 17:46:04",
+            "count" : "138"
+          }, {
+            "item" : "2023-08-30 16:47:47",
+            "count" : "137"
+          }, {
+            "item" : "2023-08-30 16:50:29",
+            "count" : "124"
+          }, {
+            "item" : "2023-08-10 00:00:00",
+            "count" : "115"
+          }, {
+            "item" : "2023-08-12 00:00:00",
+            "count" : "109"
+          }, {
+            "item" : "2023-08-12 13:40:15",
+            "count" : "106"
+          }, {
+            "item" : "2023-08-15 17:42:59",
+            "count" : "104"
+          }, {
+            "item" : "2023-08-15 17:45:14",
+            "count" : "101"
+          }, {
+            "item" : "2023-08-18 12:10:24",
+            "count" : "91"
+          }, {
+            "item" : "2023-08-30 16:51:51",
+            "count" : "87"
+          }, {
+            "item" : "2023-08-18 17:39:46",
+            "count" : "86"
+          }, {
+            "item" : "2023-08-30 16:45:17",
+            "count" : "80"
+          }, {
+            "item" : "2023-08-19 11:09:54",
+            "count" : "78"
+          }, {
+            "item" : "2023-08-30 16:46:03",
+            "count" : "77"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "2023-08-03 17:17:26",
+          "count" : "5662",
+          "cardinality" : "83"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806068,
+        "name" : " Showmanship",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "showmanship",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213058,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : "0",
+          "null" : "5662",
+          "not_null" : "0",
+          "count" : "5662",
+          "cardinality" : "0"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 416806069,
+        "name" : " Fair Year",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "fair_year",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 51213059,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : "5662",
+          "largest" : "2023",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2023",
+            "count" : "5662"
+          } ],
+          "not_null" : "17182",
+          "smallest" : "2023",
+          "count" : "5662",
+          "cardinality" : "1"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rowLabel" : "",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "87h5-w7hj",
+        "displayName" : "Willmichel81",
+        "screenName" : "Willmichel81",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "87h5-w7hj",
+        "displayName" : "Willmichel81",
+        "screenName" : "Willmichel81",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "missouri state fair results" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ ]
+}
