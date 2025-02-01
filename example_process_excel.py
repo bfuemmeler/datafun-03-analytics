@@ -1,5 +1,5 @@
 """
-Process an Excel file to count occurrences of a specific word in a column.
+Process an Excel file to count occurrences of a Full Moon.
 
 """
 
@@ -13,6 +13,7 @@ import pathlib
 # Import from external packages
 import openpyxl
 
+
 # Import from local project modules
 from utils_logger import logger
 
@@ -20,8 +21,8 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name: str = "example_data"
-processed_folder_name: str = "example_processed"
+fetched_folder_name: str = "C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data"
+processed_folder_name: str = "example-processed-data"
 
 #####################################
 # Define Functions
@@ -42,11 +43,11 @@ def count_word_in_column(file_path: pathlib.Path, column_letter: str, word: str)
         return 0
 
 def process_excel_file():
-    """Read an Excel file, count occurrences of 'GitHub' in a specific column, and save the result."""
-    input_file = pathlib.Path(fetched_folder_name, "feedback.xlsx")
-    output_file = pathlib.Path(processed_folder_name, "excel_feedback_github_count.txt")
-    column_to_check = "A"  # Replace with the appropriate column letter
-    word_to_count = "GitHub"
+    """Read an Excel file, count occurrences of "Full Moon" in a specific column, and save the result."""
+    input_file = pathlib.Path(fetched_folder_name, "C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\day-forecast.xlsx")
+    output_file = pathlib.Path(processed_folder_name, "excel_processed_fullmoon_count.txt")
+    column_to_check = "G"  # Replace with the appropriate column letter
+    word_to_count = "Full Moon"
     word_count = count_word_in_column(input_file, column_to_check, word_to_count)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open('w') as file:
