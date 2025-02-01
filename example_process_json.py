@@ -1,22 +1,5 @@
 """
-Process a JSON file to count astronauts by spacecraft and save the result.
-
-JSON file is in the format where people is a list of dictionaries with keys "craft" and "name".
-
-{
-    "people": [
-        {
-            "craft": "ISS",
-            "name": "Oleg Kononenko"
-        },
-        {
-            "craft": "ISS",
-            "name": "Nikolai Chub"
-        }
-    ],
-    "number": 2,
-    "message": "success"
-}
+Process a JSON file to count state fair awards for Boone County and save the result.
 
 """
 
@@ -43,7 +26,7 @@ processed_folder_name: str = "example_processed"
 #####################################
 
 def count_astronauts_by_craft(file_path: pathlib.Path) -> dict:
-    """Count the number of astronauts on each spacecraft from a JSON file."""
+    """Count the number of state fair ribbons for Boone County from a JSON file."""
     try:
         with file_path.open('r') as file:
             # Use the json module load() function 
