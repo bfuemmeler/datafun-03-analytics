@@ -1,5 +1,5 @@
 """
-Process a text file to count occurrences of the word "Romeo" and save the result.
+Process a text file to count occurrences of the word "Margaritaville" and save the result.
 """
 
 #####################################
@@ -16,8 +16,8 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name: str = "example_data"
-processed_folder_name: str = "example_processed"
+fetched_folder_name: str = "example-data"
+processed_folder_name: str = "example-processed-data"
 
 #####################################
 # Define Functions
@@ -34,10 +34,10 @@ def count_word_occurrences(file_path: pathlib.Path, word: str) -> int:
         return 0
 
 def process_text_file():
-    """Read a text file, count occurrences of 'Romeo', and save the result."""
-    input_file = pathlib.Path(fetched_folder_name, "romeo.txt")
-    output_file = pathlib.Path(processed_folder_name, "text_romeo_word_count.txt")
-    word_to_count: str = "Romeo"
+    """Read a text file, count occurrences of 'Margaritaville', and save the result."""
+    input_file = pathlib.Path(fetched_folder_name, "C:\Projects\datafun-03-analytics\datafun-03-analytics\example-data\jimmy-buffett.txt")
+    output_file = pathlib.Path(processed_folder_name, "example-processed-data")
+    word_to_count: str = "Margaritaville"
     word_count: int = count_word_occurrences(input_file, word_to_count)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open('w') as file:
